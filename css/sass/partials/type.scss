@@ -25,7 +25,7 @@ html {
 			font-weight: normal;
 		}
 		h3 {
-			font-size:1.6em;
+			font-size:1.4em;
 		}
 		.sidebar {
 			color:#333;
@@ -33,6 +33,12 @@ html {
 				font-size: 1.6em;
 				font-weight: normal;
 				color: $dark_blue;
+			}
+			p {
+				margin-bottom: 0;
+			}
+			p.more {
+				margin-bottom: 15px;
 			}
 		}
 		.sitenav {
@@ -45,6 +51,7 @@ html {
 				}
 				a:hover {
 					background: transparent;
+					font-weight:bold;
 				}
 			}
 			li:hover {
