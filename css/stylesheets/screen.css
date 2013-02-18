@@ -878,7 +878,7 @@ body header nav {
   box-shadow: 0 3px 5px -1px black;
   overflow: auto;
 }
-/* line 17, ../sass/partials/variables.scss */
+/* line 18, ../sass/partials/variables.scss */
 body header nav .innerwrap {
   -moz-box-shadow: inset 0 0 3px 0 black;
   -webkit-box-shadow: inset 0 0 3px 0 black;
@@ -942,7 +942,7 @@ body .wrap .pagenav h3 {
   cursor: pointer;
   margin: 0;
 }
-/* line 17, ../sass/partials/variables.scss */
+/* line 18, ../sass/partials/variables.scss */
 body .wrap .pagenav h3 .innerwrap {
   -moz-box-shadow: inset 0 0 3px 0 black;
   -webkit-box-shadow: inset 0 0 3px 0 black;
@@ -982,7 +982,7 @@ body .wrap .pagenav h3:focus {
   box-shadow: 0 3px 5px -1px black;
   outline: 0 none;
 }
-/* line 17, ../sass/partials/variables.scss */
+/* line 18, ../sass/partials/variables.scss */
 body .wrap .pagenav h3:focus .innerwrap {
   -moz-box-shadow: inset 0 0 3px 0 black;
   -webkit-box-shadow: inset 0 0 3px 0 black;
@@ -1014,7 +1014,7 @@ body .wrap .main {
 }
 /* line 72, ../sass/partials/layout.scss */
 body .wrap .main h1 {
-  margin: 0 0 20px 0;
+  margin: 0 0 15px 0;
 }
 /* line 76, ../sass/partials/layout.scss */
 body .wrap .sidebar {
@@ -1027,4 +1027,86 @@ body .wrap .sidebar {
 /* line 82, ../sass/partials/layout.scss */
 body .wrap .sidebar h1 {
   margin: 0 0 10px 0;
+}
+
+/* line 1, ../sass/partials/type.scss */
+html {
+  font-size: 16px;
+}
+/* line 3, ../sass/partials/type.scss */
+html body {
+  font-size: 62.5%;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  color: #262626;
+}
+/* line 7, ../sass/partials/type.scss */
+html body p {
+  font-size: 1.4em;
+  margin: 0 0 15px 0;
+}
+/* line 11, ../sass/partials/type.scss */
+html body a {
+  color: #305c91;
+}
+/* line 14, ../sass/partials/type.scss */
+html body a:hover {
+  background: #305c91;
+  color: white;
+  text-decoration: none;
+}
+/* line 19, ../sass/partials/type.scss */
+html body li {
+  font-size: 1.4em;
+}
+/* line 22, ../sass/partials/type.scss */
+html body h1 {
+  font-size: 2.6em;
+  color: #305c91;
+  font-weight: normal;
+}
+/* line 27, ../sass/partials/type.scss */
+html body h3 {
+  font-size: 1.6em;
+}
+/* line 30, ../sass/partials/type.scss */
+html body .sidebar {
+  color: #333;
+}
+/* line 32, ../sass/partials/type.scss */
+html body .sidebar h1 {
+  font-size: 1.6em;
+  font-weight: normal;
+  color: #305c91;
+}
+/* line 39, ../sass/partials/type.scss */
+html body .sitenav li {
+  color: #eee;
+  text-shadow: 0px 0px 5px black;
+}
+/* line 42, ../sass/partials/type.scss */
+html body .sitenav li a {
+  color: #eee;
+  text-decoration: none;
+}
+/* line 46, ../sass/partials/type.scss */
+html body .sitenav li a:hover {
+  background: transparent;
+}
+/* line 54, ../sass/partials/type.scss */
+html body .pagenav {
+  color: #333;
+}
+/* line 56, ../sass/partials/type.scss */
+html body .pagenav h3 {
+  color: #fff;
+  font-weight: normal;
+}
+/* line 60, ../sass/partials/type.scss */
+html body .pagenav a {
+  color: #333;
+  text-decoration: none;
+}
+/* line 64, ../sass/partials/type.scss */
+html body .pagenav a:hover {
+  background: #fff;
 }
