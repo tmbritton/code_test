@@ -19,6 +19,9 @@ body {
 				li:first-child {
 					margin: 0;
 				}
+				li::before {
+					content: ":: ";
+				}
 			}
 		}
 	}
@@ -30,40 +33,35 @@ body {
 			background: $light_blue;
 			float:left;
 			margin: 0 20px 0 0;
+			h3 {
+				@include blue_grad;
+				text-align:center;
+				cursor: pointer;
+				margin: 0;
+				span {
+					display: block;
+					padding: 10px 0;
+				}
+				span.ui-icon {
+					display:none;
+				}
+			}
+			h3:focus {
+				@include blue_grad;
+				outline: 0 none;
+			}
 			ul {
 				margin: 0;
 				padding: 0;
 				li {
-					span {
-						display: block;
-						text-align: center;
-						@include blue_grad;
-						a {
-							display:block;
-							padding: 5px 0;
-						}
-					}
-					ul {
-						@include visuallyhidden;
-						-webkit-transition: all 0.2s ease-in-out;
-						max-height: 0px;	
-					li {
-							padding: 5px 0 5px 10px;
-							border-bottom: 1px solid #7d7d7d;
-						}
-						li:last-child {
-							border-bottom: 0 none;
-						}
-					}
+					border-bottom: 1px solid #7d7d7d;
+					padding: 5px 0 5px 20px;
 				}
-				li:hover {
-					ul {
-						height:auto;
-						max-height: 1000px;
-						width:200px;
-						overflow: auto;
-						position:static;
-					}
+				li::before { 
+					content: "> "; 
+				}
+				li:last-child {
+					border-bottom: 0 none;
 				}
 			}
 		}
