@@ -843,3 +843,165 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* line 1, ../sass/partials/layout.scss */
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 5, ../sass/partials/layout.scss */
+body header h1 {
+  margin: 0;
+}
+/* line 8, ../sass/partials/layout.scss */
+body header nav {
+  background: #7cbcfb;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdjYmNmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzU2ODhlMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzRjNjg5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1MjcwYTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #7cbcfb 0%, #5688e0 50%, #4c6899 51%, #5270a2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7cbcfb), color-stop(50%, #5688e0), color-stop(51%, #4c6899), color-stop(100%, #5270a2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #7cbcfb 0%, #5688e0 50%, #4c6899 51%, #5270a2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #7cbcfb 0%, #5688e0 50%, #4c6899 51%, #5270a2 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #7cbcfb 0%, #5688e0 50%, #4c6899 51%, #5270a2 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #7cbcfb 0%, #5688e0 50%, #4c6899 51%, #5270a2 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7cbcfb', endColorstr='#5270a2',GradientType=0 );
+  /* IE6-8 */
+  -moz-box-shadow: 0 3px 5px -1px black;
+  -webkit-box-shadow: 0 3px 5px -1px black;
+  box-shadow: 0 3px 5px -1px black;
+  overflow: auto;
+}
+/* line 17, ../sass/partials/variables.scss */
+body header nav .innerwrap {
+  -moz-box-shadow: inset 0 0 3px 0 black;
+  -webkit-box-shadow: inset 0 0 3px 0 black;
+  box-shadow: inset 0 0 3px 0 black;
+}
+/* line 11, ../sass/partials/layout.scss */
+body header nav ul {
+  margin: 0;
+  padding: 10px 0 10px 20px;
+  overflow: auto;
+}
+/* line 15, ../sass/partials/layout.scss */
+body header nav ul li {
+  float: left;
+  margin: 0 0 0 30px;
+}
+/* line 19, ../sass/partials/layout.scss */
+body header nav ul li:first-child {
+  margin: 0;
+}
+/* line 25, ../sass/partials/layout.scss */
+body .wrap {
+  width: 920px;
+  padding: 20px;
+}
+/* line 28, ../sass/partials/layout.scss */
+body .wrap .pagenav {
+  width: 200px;
+  background: #afd0fa;
+  float: left;
+  margin: 0 20px 0 0;
+}
+/* line 33, ../sass/partials/layout.scss */
+body .wrap .pagenav ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 37, ../sass/partials/layout.scss */
+body .wrap .pagenav ul li span {
+  display: block;
+  text-align: center;
+  background: #7cbcfb;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdjYmNmYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzU2ODhlMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzRjNjg5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1MjcwYTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #7cbcfb 0%, #5688e0 50%, #4c6899 51%, #5270a2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7cbcfb), color-stop(50%, #5688e0), color-stop(51%, #4c6899), color-stop(100%, #5270a2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #7cbcfb 0%, #5688e0 50%, #4c6899 51%, #5270a2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #7cbcfb 0%, #5688e0 50%, #4c6899 51%, #5270a2 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #7cbcfb 0%, #5688e0 50%, #4c6899 51%, #5270a2 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #7cbcfb 0%, #5688e0 50%, #4c6899 51%, #5270a2 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7cbcfb', endColorstr='#5270a2',GradientType=0 );
+  /* IE6-8 */
+  -moz-box-shadow: 0 3px 5px -1px black;
+  -webkit-box-shadow: 0 3px 5px -1px black;
+  box-shadow: 0 3px 5px -1px black;
+}
+/* line 17, ../sass/partials/variables.scss */
+body .wrap .pagenav ul li span .innerwrap {
+  -moz-box-shadow: inset 0 0 3px 0 black;
+  -webkit-box-shadow: inset 0 0 3px 0 black;
+  box-shadow: inset 0 0 3px 0 black;
+}
+/* line 41, ../sass/partials/layout.scss */
+body .wrap .pagenav ul li span a {
+  display: block;
+  padding: 5px 0;
+}
+/* line 46, ../sass/partials/layout.scss */
+body .wrap .pagenav ul li ul {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  -webkit-transition: all 0.2s ease-in-out;
+  max-height: 0px;
+}
+/* line 50, ../sass/partials/layout.scss */
+body .wrap .pagenav ul li ul li {
+  padding: 5px 0 5px 10px;
+  border-bottom: 1px solid #7d7d7d;
+}
+/* line 54, ../sass/partials/layout.scss */
+body .wrap .pagenav ul li ul li:last-child {
+  border-bottom: 0 none;
+}
+/* line 60, ../sass/partials/layout.scss */
+body .wrap .pagenav ul li:hover ul {
+  height: auto;
+  max-height: 1000px;
+  width: 200px;
+  overflow: auto;
+  position: static;
+}
+/* line 70, ../sass/partials/layout.scss */
+body .wrap .main {
+  padding: 0 20px 0 20px;
+  float: left;
+  width: 440px;
+}
+/* line 74, ../sass/partials/layout.scss */
+body .wrap .main h1 {
+  margin: 0 0 20px 0;
+}
+/* line 78, ../sass/partials/layout.scss */
+body .wrap .sidebar {
+  width: 168px;
+  float: right;
+  background: #afd0fa;
+  border: 1px solid #5f5f5f;
+  padding: 15px;
+}
+/* line 84, ../sass/partials/layout.scss */
+body .wrap .sidebar h1 {
+  margin: 0 0 10px 0;
+}
